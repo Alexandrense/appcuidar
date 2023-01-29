@@ -1,7 +1,7 @@
 <template>
   <section class="page-section">
     <b-container>
-      <HeaderPage title="Adicionar Quiz"/>
+      <HeaderPage title="Adicionar Utente"/>
       
       <!--FORM-->
       <b-row>
