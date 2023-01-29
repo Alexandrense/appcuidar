@@ -27,6 +27,48 @@
               required
             />
             </div>
+            <h5 class="card-title">Refeições</h5>
+            <div class="form-group">
+              <select id="sltBath" class="form-control form-control-lg" v-model="day.breakfast" >                
+                <option value>-- PEQUENO ALMOÇO --</option>
+                <option value="não">NÃO OFERECIDO</option>
+                <option value="tudo">COMEU TUDO</option>
+                <option value="parte">COMEU PARTE</option>
+                <option value="pouco">COMEU POUCO</option>
+                <option value="recusou">RECUSOU</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select id="sltBath" class="form-control form-control-lg" v-model="day.lunch" >                
+                <option value>-- ALMOÇO --</option>
+                <option value="não">NÃO OFERECIDO</option>
+                <option value="tudo">COMEU TUDO</option>
+                <option value="parte">COMEU PARTE</option>
+                <option value="pouco">COMEU POUCO</option>
+                <option value="recusou">RECUSOU</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select id="sltBath" class="form-control form-control-lg" v-model="day.coffee" >                
+                <option value>-- LANCHE --</option>
+                <option value="não">NÃO OFERECIDO</option>
+                <option value="tudo">COMEU TUDO</option>
+                <option value="parte">COMEU PARTE</option>
+                <option value="pouco">COMEU POUCO</option>
+                <option value="recusou">RECUSOU</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <select id="sltBath" class="form-control form-control-lg" v-model="day.dinner" >                
+                <option value>-- JANTAR --</option>
+                <option value="não">NÃO OFERECIDO</option>
+                <option value="tudo">COMEU TUDO</option>
+                <option value="parte">COMEU PARTE</option>
+                <option value="pouco">COMEU POUCO</option>
+                <option value="recusou">RECUSOU</option>
+              </select>
+            </div>
+            <h5 class="card-title">Higiene e Saúde</h5>
             <div class="form-group">
               <select id="sltBath" class="form-control form-control-lg" v-model="day.bath" required>                
                 <option value>-- BANHO --</option>
@@ -53,6 +95,7 @@
                 placeholder="escreve temperatura corporal"
               />
             </div>
+            <h5 class="card-title">Classificação do dia</h5>
             <div class="form-group">
               <select id="sltDayClassification" class="form-control form-control-lg" v-model="day.dayClassification">                
                 <option value>-- COMO FOI O DIA DO UTENTE? --</option>

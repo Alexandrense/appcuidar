@@ -171,11 +171,18 @@ export default {
     generateTemplate(dayregistry, patientName) {
       return `
           <p>
-          <b>Utente:</b> ${patientName} <br>
+          <b>Utente:</b> ${patientName} <br><br>
+          <b>Refeições</b> <br><br>
+          <b>Pequeno Almoço:</b> ${dayregistry.breakfast} <br>
+          <b>Almoço:</b> ${dayregistry.lunch} <br>
+          <b>Lanche:</b> ${dayregistry.coffee} <br>
+          <b>Jantar:</b> ${dayregistry.dinner} <br><br>
+          <b>Higiene e Saúde</b> <br><br>
           <b>Banho:</b> ${dayregistry.bath} <br>
           <b>Temperatura:</b> ${dayregistry.temperature} <br>
-          <b>Pressão Sanguinea:</b> ${dayregistry.bloodPressure}<br>
-          <b>Classificação do dia:</b> ${dayregistry.dayClassification}<br>
+          <b>Pressão Sanguinea:</b> ${dayregistry.bloodPressure}<br><br>
+          <b>Classificação do dia</b> <br><br>
+          <b>Classificação:</b> ${dayregistry.dayClassification}<br>
           <b>Observações:</b> ${dayregistry.description}
           </p>
         `
