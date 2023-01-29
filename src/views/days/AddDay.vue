@@ -31,7 +31,7 @@
             </div>
             <div class="form-group">
               <select id="sltBath" class="form-control form-control-lg" v-model="bath" required>                
-                <option value>-- TOMOU BANHO? --</option>
+                <option value>-- BANHO --</option>
                 <option value="não">NÃO</option>
                 <option value="sim">SIM</option>
                 <option value="recusou">RECUSOU</option>

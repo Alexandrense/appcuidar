@@ -23,7 +23,7 @@
                 <br />
                 <strong>Username:</strong> {{user.auth.username}}
                 <br />
-                <strong>Tipo:</strong> {{user.type}}
+                <strong>Tipo:</strong> {{user.type==="admin"?"Administrador":user.type==="user"?"Utilizador normal":"Cuidador"}}
                 <br />
                 <br/>
                 

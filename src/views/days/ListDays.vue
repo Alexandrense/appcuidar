@@ -6,7 +6,7 @@
       <b-row class="mb-4">
         <b-col cols="2"></b-col>
         <b-col>
-          <router-link
+          <router-link v-if="getUserType == 'admin' || getUserType == 'caregiver'"
             :to="{name:'addDay'}"
             tag="button"
             class="btn btn-outline-success mr-2 mt-2"
